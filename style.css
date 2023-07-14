@@ -1,0 +1,241 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Source Sans Pro;
+  }
+  
+html {
+scroll-behavior: smooth;
+}
+
+.main-sect{
+    background-image: url(images/landing-background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}  
+
+header{
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+   nav{
+    display: flex;
+   }
+
+   .nav-links{
+       display: none;
+   }
+
+   .logo{
+    margin-left: 100px;
+   }
+
+   .menu{
+        margin-top: 10px;
+       cursor: pointer;
+   } 
+
+   .text{
+    width: 70%;
+   }   
+   
+   .social{
+       text-align: center;
+   }
+
+   .foot-logo{
+   
+   }
+
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    header{
+        padding-top: 30px;
+    }
+
+   nav, .foot-cont{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .nav-links, .social{
+       display: flex;
+       list-style: none;
+   }
+
+   .nav-links li, .social-icon{
+       padding-right: 20px;
+   }
+   
+   .menu{
+         display: none;
+    }
+
+    .text{
+        width: 70%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header{
+        padding-top: 30px;
+    }
+
+   nav, .foot-cont{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .nav-links, .social{
+       display: flex;
+       list-style: none;
+   }
+
+   .nav-links li, .social-icon{
+       padding-right: 20px;
+   }
+
+   .menu{
+         display: none;
+   }
+
+   .text{
+    width: 40%;
+   }
+
+   
+}
+
+
+.logo{
+    width: 161px;
+    height: auto;
+}
+
+.menu{
+    width: 20px;
+    height: 14px;
+}
+
+nav{
+    display: flex;
+}
+
+.text{
+    margin: 0 auto;
+    margin-top: 40vh;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.text-p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.cta-btn{
+    box-shadow: 0px 2px 20px 0px #00000080;
+    color: white;
+    background-color: #FF6565;
+    width: 162px;
+    height: 44px;
+    font-weight: 700px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.text-p2{
+    margin-top: 45px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+}
+
+.what-we-do{
+    margin-top: 100px;
+    color: black;
+}
+
+.text-icon{
+    padding: 10px;
+}
+
+.what-we-do-icons, .sect-images{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.section-2{
+    background-image: url(images/background2.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+.section2-text{
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.contact{
+    margin-top:50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.contact-input{
+    margin-bottom: 20px;
+    border:0;
+    border-bottom: solid 1px #071629;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+footer{
+    background: #071629;
+    padding-top: 50px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
+}
